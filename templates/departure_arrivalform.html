@@ -1,0 +1,12 @@
+{% extends 'base.html' %}{% block content %}<form  enctype="multipart/form-data" method="POST">
+<div class="field"><label for="somefieldcity_id">city_id</label><select id="somefieldcity_id" name="city_id"><option value="novalue">no value</option>
+{% for somecity in touslescity %}
+<option value="{{ somecity['id'] }}">{{ somecity['name'] }}</option>{% endfor %}
+</select></div>
+<div class="field"><label for="somefieldcity_arrival_id">city_arrival_id</label><select id="somefieldcity_arrival_id" name="city_arrival_id"><option value="novalue">no value</option>
+{% for somecity_arrival in touslescity_arrival %}
+<option value="{{ somecity_arrival['id'] }}">{{ somecity_arrival['name'] }}</option>{% endfor %}
+</select></div>
+<div class="field"><label for="somefielddeparture_arrivalairline_company">airline_company</label><input type="text" id="somefielddeparture_arrivalairline_company" name="airline_company"/></div>
+<div class="field"><label for="somefielddeparture_arrivaltimearrival">timearrival</label><input type="text" id="somefielddeparture_arrivaltimearrival" name="timearrival"/></div>
+<div class="field"><label for="somefielddeparture_arrivalexperience_id">experience_id</label><input type="text" id="somefielddeparture_arrivalexperience_id" name="experience_id"/></div><div class="actions"><input type="submit"/></div></form>{% for x in departure_arrivals %}{{x["city_id"] }}{% endfor %}{% endblock %}{% block liens %}<a href="/">bienvenue</a><a href="/add_one_departure_arrival"> add one departure_arrival</a>{% endblock %}

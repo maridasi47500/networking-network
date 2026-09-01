@@ -1,0 +1,6 @@
+{% extends 'base.html' %}{% block content %}<form  enctype="multipart/form-data" method="POST">
+<div class="field"><label for="somefieldmot_reseau_experienceexperience_id">experience_id</label><input type="text" id="somefieldmot_reseau_experienceexperience_id" name="experience_id"/></div>
+<div class="field"><label for="somefieldmot_reseau_id">mot_reseau_id</label><select id="somefieldmot_reseau_id" name="mot_reseau_id"><option value="novalue">no value</option>
+{% for somemot_reseau in touslesmot_reseau %}
+<option value="{{ somemot_reseau['id'] }}">{{ somemot_reseau['name'] }}</option>{% endfor %}
+</select></div><div class="actions"><input type="submit"/></div></form>{% for x in mot_reseau_experiences %}{{x["experience_id"] }}{% endfor %}{% endblock %}{% block liens %}<a href="/">bienvenue</a><a href="/add_one_mot_reseau_experience"> add one mot_reseau_experience</a>{% endblock %}

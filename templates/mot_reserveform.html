@@ -1,0 +1,6 @@
+{% extends 'base.html' %}{% block content %}<form  enctype="multipart/form-data" method="POST">
+<div class="field"><label for="somefieldmot_reservename">name</label><input type="text" id="somefieldmot_reservename" name="name"/></div>
+<div class="field"><label for="somefieldprogramming_language_id">programming_language_id</label><select id="somefieldprogramming_language_id" name="programming_language_id"><option value="novalue">no value</option>
+{% for someprogramming_language in touslesprogramming_language %}
+<option value="{{ someprogramming_language['id'] }}">{{ someprogramming_language['name'] }}</option>{% endfor %}
+</select></div><div class="actions"><input type="submit"/></div></form>{% for x in mot_reserves %}{{x["name"] }}{% endfor %}{% endblock %}{% block liens %}<a href="/">bienvenue</a><a href="/add_one_mot_reserve"> add one mot_reserve</a>{% endblock %}

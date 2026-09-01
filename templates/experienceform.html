@@ -1,0 +1,4 @@
+{% extends 'base.html' %}{% block content %}<form  enctype="multipart/form-data" method="POST">
+<div class="field"><label for="somefieldexperiencescript_reseau">script_reseau</label><input type="text" id="somefieldexperiencescript_reseau" name="script_reseau"/></div>
+<div class="field"><label for="somefieldexperienceuser_id">user_id</label><input type="text" id="somefieldexperienceuser_id" name="user_id"/></div>
+<div class="field"><label for="somefieldexperiencedescription">description</label><input type="text" id="somefieldexperiencedescription" name="description"/></div><div class="actions"><input type="submit"/></div></form>{% for x in experiences %}{{x["script_reseau"] }}{% endfor %}{% endblock %}{% block liens %}<a href="/">bienvenue</a><a href="/add_one_experience"> add one experience</a>{% endblock %}

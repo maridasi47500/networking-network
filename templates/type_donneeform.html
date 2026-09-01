@@ -1,0 +1,2 @@
+{% extends 'base.html' %}{% block content %}<form  enctype="multipart/form-data" method="POST">
+<div class="field"><label for="somefieldtype_donneename">name</label><input type="text" id="somefieldtype_donneename" name="name"/></div><div class="actions"><input type="submit"/></div></form>{% for x in type_donnees %}{{x["name"] }}{% endfor %}{% endblock %}{% block liens %}<a href="/">bienvenue</a><a href="/add_one_type_donnee"> add one type_donnee</a>{% endblock %}

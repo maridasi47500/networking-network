@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block montitre %}
+debut de mes mots: bienvenue
+{% endblock %}
+{% block content %}
+<h1># networking-network</h1>
+{% for x in users | reverse %}
+ <li>{{ x["first_name"]  }}</li>
+
+{% endfor %} 
+fin de mes mots : - Pas de vrai script python/ruby à écrire. , , ,  = juste des mots à connaître, comme des mots magiques.
+- Ce que tu composes, cest ta reconnexion:
+ -  -> où tu as habité
+ -  -> où tu habites = ton domicile actuel
+ -  -> qui tu connais ici
+ -  -> tu regardes les bateaux/avions qui arrivent
+{% endblock %}
+{% block liens %}
+<a href="/">welcome</a>
+{% endblock %}

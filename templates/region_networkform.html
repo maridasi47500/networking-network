@@ -1,0 +1,6 @@
+{% extends 'base.html' %}{% block content %}<form  enctype="multipart/form-data" method="POST">
+<div class="field"><label for="somefieldpast_current_village_id">past_current_village_id</label><select id="somefieldpast_current_village_id" name="past_current_village_id"><option value="novalue">no value</option>
+{% for somepast_current_village in touslespast_current_village %}
+<option value="{{ somepast_current_village['id'] }}">{{ somepast_current_village['name'] }}</option>{% endfor %}
+</select></div>
+<div class="field"><label for="somefieldregion_networkperson_name">person_name</label><input type="text" id="somefieldregion_networkperson_name" name="person_name"/></div><div class="actions"><input type="submit"/></div></form>{% for x in region_networks %}{{x["past_current_village_id"] }}{% endfor %}{% endblock %}{% block liens %}<a href="/">bienvenue</a><a href="/add_one_region_network"> add one region_network</a>{% endblock %}
