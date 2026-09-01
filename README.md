@@ -23,5 +23,5 @@ tu composes un script.
 
 - tu te (re)connectes avec ta région et et au reseau de gens de la région
 - tu regardes les bateaux / avions qui arrivent.
-- tu te connectes avec 
+- tu te connectes avec une past/current village (lieux de résidence antérieurs / ou lieux de résidence /domicile actuel) et avec la même région 
 
