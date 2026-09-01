@@ -1,6 +1,16 @@
 # networking-network
 reviser lmot reseaux, et do networking, qui tu connai
 gps, bateaux arrivent
+
+
+- *"Ton profil passager est enregistré"*
+- *"Tu as un ID de voyage"*
+- *"Tu es enregistré en biométrique"*
+- *"Ton boarding est dans ton wallet"*
+
+
+
+Tu veux l'utiliser comment? Pour ton logement, pour dire aux invités "vous arrivez avec votre identité numérique"?
 1. LOGEMENT: Peu importe où tu habites ou ce que tu fais dans la journée, ton appart est un nœud du réseau.
 
 Annonce:
