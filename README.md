@@ -5,7 +5,7 @@ gps, bateaux arrivent
 
 Annonce:
 
-Titre: Network Loft - IP / MAC / DNS House Tu dors dans un réseau. Wifi, Bluetooth, Avion, 4G: tu choisis ton mode.
+Titre:  Loft, apartment, any where - Tu dors dans un réseau. Wifi, Bluetooth, Avion, 4G: tu choisis ton mode.
 Équipements dans la BDD logement:
 
 ip_address, mac_address, dns, vpn
@@ -23,4 +23,5 @@ tu composes un script.
 
 - tu te (re)connectes avec ta région et et au reseau de gens de la région
 - tu regardes les bateaux / avions qui arrivent.
-- tu fais ce que tu veux dans la région 
+- tu te connectes avec 
+
