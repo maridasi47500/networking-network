@@ -15,7 +15,7 @@ gps, bateaux arrivent
 
 Annonce:
 
-Titre:  Loft, apartment, any where - Tu dors dans un réseau. Wifi, Bluetooth, Avion, 4G: tu choisis ton mode.
+Titre:  Loft, apartment, any where - Tu dors dans un endroit où tu peux accéder au réseau. Wifi, Bluetooth, Avion, 4G: tu choisis ton mode.
 Équipements dans la BDD logement:
 
 ip_address, mac_address, dns, vpn
@@ -28,7 +28,7 @@ Titre: "Écris ce que tu veux en langage réseau"
 
 
 
-ce n'est pas une expérience Airbnb, tu prends le temps qu'il te faut, Tu dois savoir les mots du réseau. 
+ce n'est pas une expérience Airbnb avec une limite de temps, tu prends le temps qu'il te faut, Tu dois savoir les mots du réseau. 
 tu composes un script. 
 
 - tu te (re)connectes avec ta région et et au reseau de gens de la région
